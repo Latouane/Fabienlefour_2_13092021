@@ -1,21 +1,98 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8"/>
     <title>Reservia</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Css/style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body>
-    <Div id=bloc_page>
-        <header>
-            <div id="Titre_principal">
-                <h1>Reservia</h1>
-            </div>
-            <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
-            <p>En plein centre ville ou en pleine nature</p>
-            
+        <!-- Header -->
 
+        <header>
+            <div class="logo_container">
+                <img src="images/logo/Reservia@3x.png" alt="Reservia"/>
+            </div>
+            <nav class="menu">
+               <div class="hebergements">
+                   <a id="hebergements" href="#hebergements">Hébergements</a>
+                </div>
+                <div class="activites">
+                    <a id="activites" href="#activites">Activités</a>
+                </div>
+               <div class="inscription">
+                    <a id="inscription" href="#">S'inscrire</a>
+               </div>
+               
+            </nav>  
         </header>
-    </Div>
+
+        <!-- Section recherche de logement -->
+
+        <section>
+            <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+            <p>En plein centre ville ou en pleine nature</p>
+
+        <!-- Icone localisation + fonction recherche -->
+                <div id="localisation">
+                    <i class="fas fa-map-marker-alt"></i>
+                </div>  
+                <div id="recherche">
+                    <input type="search" id="site-search" name="q" placeholder="Marseille, France"/>
+                </div>
+                <div id="bouton">
+                    <input type="button" value="Rechercher"/>
+                </div>
+                <div id="loupe">
+                    <i class="fas fa-search"></i>
+                </div>
+
+            <h2>Filtres</h2>
+
+        <!-- Section icones filtres-->
+        <!-- mettre une classe aux span et définir l'id class-->
+            <span class="nomDeTaClass"> 
+                <i class="icone fas fa-money-bill-wave"></i><a href="#">Économique </a>
+            </span>
+            <span>
+                <i class="icone fas fa-child"></i><a href="#">Familial</a>
+            </span>
+            <span>
+                <i class="icone fas fa-heart"></i><a href="#">Romantique</a>
+            </span>
+            <span>
+                <i class="icone fas fa-dog"></i><a href="#">Animaux autorisés</a>
+            </span>
+            <P>
+                <span class="fas fa-info">
+                </span>Plus de 500 logements sont disponibles dans cette ville
+            </P>
+        </section>
+
+        <!-- Section hébergement article + aside -->
+        <section>
+            <article id="">
+                <h1>Hébergements à Marseille</h1>
+                <!-- Définir un id pour la class concernant les img et un autre pour la partie txt-->
+                <div class="">
+                    <a href="#">
+                        <img src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Auberge de la Cannebière">
+                    </a>
+                </div>
+
+                <div class="">
+                    <h3>Auberge de la Cannebière</h3>
+                    <p>Nuit à partir de 25€</p>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+
+            </article>
+        </section>
+        <section></section>
+        <footer></footer>
 </body>
 </html>
