@@ -10,7 +10,7 @@
 <body>
      <div id="bloc_page">
     <!-- Header -->
-
+    
         <header>
             <div class="logo_container">
                 <img id="logo" src="images/logo/Reservia@3x.png" alt="Reservia"/>
@@ -36,45 +36,49 @@
             <p>En plein centre ville ou en pleine nature</p>
 
         <!-- Icone localisation + fonction recherche -->
-                <div id="localisation">
-                    <i class="fas fa-map-marker-alt"></i>
-                </div>  
-                <div id="recherche">
-                    <input type="search" id="site-search" name="q" placeholder="Marseille, France"/>
+                <div class="elements_recherche">
+                    <div class="localisation">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>  
+                    <div class="recherche">
+                        <input type="search" id="site-search" name="q" placeholder="Marseille, France"/>
+                    </div>
+                    <div class="bouton">
+                        <input type="button" value="Rechercher"/>
+                    </div>
+                    <div class="loupe">
+                        <i class="fas fa-search"></i>
+                    </div>
                 </div>
-                <div id="bouton">
-                    <input type="button" value="Rechercher"/>
-                </div>
-                <div id="loupe">
-                    <i class="fas fa-search"></i>
-                </div>
-
-            <h2>Filtres</h2>
 
         <!-- Section icones filtres-->
-        <!-- mettre une classe aux span et définir l'id class-->
-            <span class="filtres"> 
-                <i class="icone fas fa-money-bill-wave"></i><a href="#">Économique </a>
-            </span>
-            <span class="filtres">
-                <i class="icone fas fa-child"></i><a href="#">Familial</a>
-            </span>
-            <span>
-                <i class="icone fas fa-heart"></i><a href="#">Romantique</a>
-            </span>
-            <span class="filtres">
-                <i class="icone fas fa-dog"></i><a href="#">Animaux autorisés</a>
-            </span>
-            <P>
-                <span class="fas fa-info">
-                </span>Plus de 500 logements sont disponibles dans cette ville
-            </P>
+            <div id="filtres" >
+                <h2 id="title_filtres">Filtres</h2>
+                
+                    <span class="filtres"> 
+                        <i class="icone fas fa-money-bill-wave"></i><a href="#">Économique </a>
+                    </span>
+                    <span class="filtres">
+                        <i class="icone fas fa-child"></i><a href="#">Familial</a>
+                    </span>
+                    <span class="filtres">
+                        <i class="icone fas fa-heart"></i><a href="#">Romantique</a>
+                    </span>
+                    <span class="filtres">
+                        <i class="icone fas fa-dog"></i><a href="#">Animaux autorisés</a>
+                    </span> 
+            </div>
+                    <P>
+                        <span class="fas fa-info">
+                        </span><br> Plus de 500 logements sont disponibles dans cette ville
+                    </P>
+
         </section>
 
         <!-- Section hébergement article + aside -->
         <section>
             <!-- Article -->
-            <article id="article">
+            <article class="article">
                 <h1>Hébergements à Marseille</h1>
                 
                 <div class="img_hebergements">
@@ -178,7 +182,7 @@
             </article>
 
             <!-- Aside -->
-            <aside id="aside">
+            <aside class="aside">
                 <h1>Les plus populaires</h1>
 
                 <span><i class="fas fa-chart-line"></i></span>
