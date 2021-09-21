@@ -10,7 +10,7 @@
 }
 
 @font-face {
-    font-family: 'ralewaythin';
+    font-family: 'raleway';
     src: url('raleway-variablefont_wght-webfont.woff2') format('woff2'),
          url('raleway-variablefont_wght-webfont.woff') format('woff');
     font-weight: normal;
@@ -18,12 +18,16 @@
 
 }
 
-h1, h2, h3, h4, p, a {
-    font-family: 'ralewaythin', sans-serif
+h1, h2, h3, h4, a {
+    font-family: 'raleway', sans-serif
 }
 
 h1 {
     font-size: 27.5px;
+}
+
+p {
+    font-family: 'ralewaythin_italic';
 }
 
 /* Marge header, sections hébergements et activites */
@@ -161,31 +165,36 @@ input[type="button" i] {
 
 /* Filtres */
 
-#filtres {
+.container_filtres {
     display: flex;
-    width: 1400px;
+    width: 1365px;
     align-items: center;
     justify-content: space-between;
     margin-top: 30px;
 }
 
-#title_filtres {
-    width: 130px;
+.title_filtres {
+    width: 75px;
 }
 
 .filtres {
-    height: 67.81px;
+    height: 65px;
     vertical-align: middle;
-    line-height:67.81px;
-    
+    line-height: 55px;
+    border-radius: 50px 50px 50px 50px;
+    border: 3px #F2F2F2 solid; 
 }
 
+/* Icone et texte filtre */
 .filtres i {
     background-color:  #DEEBFF;
     border-radius: 50%;
     border: none;
     color:#0065FC;
     padding: 20px;
+    font-size: 30px;
+    margin: -2.5px;
+
 }
 
 .filtres a {
@@ -193,18 +202,30 @@ input[type="button" i] {
     font-weight: bold;
     color: black;
     margin-left: 15px;
+    font-size: 26.5px;
 }
 
-/* exemple pour les icones filtres 
-i {
-    background-color: #F2F2F2;
+/* Partie info, mettre la police en raleway light 300 */
+
+.info {
+    display: flex;
+}
+
+.info p {
+    line-height: 5px;
+}
+ 
+.info span {
     border-radius: 50%;
-    border: 1x solid grey;
-    padding: 20px;
-  }
+    border: #F2F2F2 solid 2px;
+    padding: 5px;
+    color: #0065FC;
+}
 
-  */
+/* Hébergements à Marseille */
 
+/* format de l'article */
 
+/* carte hotel */
 
 
