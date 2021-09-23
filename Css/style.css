@@ -26,6 +26,11 @@ h1 {
     font-size: 27.5px;
 }
 
+h3 {
+    font-size: 21px;
+    font-weight: bold;
+}
+
 p {
     font-family: 'ralewaythin_italic';
     font-size: 20px;
@@ -98,12 +103,18 @@ nav a {
     line-height: 140px
 }
 
-/* texte section logement */
+/* texte section recherche logement */
 
 #hebergements {
     margin-top: 60px;
     margin-block-end: 0px;
 }
+
+.part_1 p {
+    margin-top: 5px;
+}
+
+
 
 /* Barre de recherche */
 
@@ -224,13 +235,13 @@ input[type="button" i] {
 
 /* Section Hébergements à Marseille + Les plus populaires */
 
-.part_1 {
+.part_2 {
     display: flex;
 }
 
 /* Article */
 
-/* format de l'article */
+/* Format de l'article */
 
 article {
     width: 1250px;
@@ -238,7 +249,7 @@ article {
     border-radius: 20px;
 }
 
-/* H1 et h4 hébergements à Marseille */
+/* H1 et h4 Heb à Marseille */
 
 .container_heb h1 {
     width: 1200px;
@@ -252,7 +263,7 @@ article {
     font-weight: bold;
 }
 
-/* carte hotel */
+/* card Heb */
 
 .container_heb {
     display: flex;
@@ -273,7 +284,7 @@ article {
     margin: 7px;  
 }
 
-/* Img carte heb */
+/* Img card Heb */
 
 .img_hebergements {
     height: 155px;
@@ -288,7 +299,7 @@ article {
     border-radius: 20px 20px 0px 0px;
 }
 
-/* txt card heb */
+/* txt card Heb */
 
 .txt_hebergements {
     height: 75px;
@@ -326,7 +337,7 @@ article {
 
 /* Aside */
 
-.part_2 {
+.part_3 {
     height: 800px;
     width: 615px;
     background-color: #F2F2F2;
@@ -338,7 +349,7 @@ article {
     height: 800px;
 }
 
-/* Titre aside */
+/* Titre Aside */
 
 .aside_title {
     height: 65px;
@@ -353,7 +364,7 @@ article {
     line-height: 85px;
 }
 
-/* Card Aside */
+/* Card Pop */
 
 .container_card_pop {
     height: 170px ;
@@ -370,7 +381,7 @@ article {
     margin: 7px;   
 }
 
-/* img card aside */
+/* img card Pop */
 
 .img_pop {
     height: 157px;
@@ -385,7 +396,7 @@ article {
     border-radius: 20px 0px 0px 20px;
 }
 
-/* txt card pop */
+/* txt card Pop */
 
 .txt_pop {
     height: 75px;
@@ -422,6 +433,54 @@ article {
     text-decoration: none;
     color: black;
 }
+
+/* Activites */
+
+/* Card Activites */
+
+/* Large container */
+
+.large_container {
+    height: 660px;
+    width: 420px;
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    margin-top: 20px;
+}
+
+.large_card {
+    height: 660px;
+    width: 420px;
+}
+
+/* Large img */
+
+.large_img {
+    height: 600px;
+    width: 420px;
+    display: block;
+}
+
+.large_img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+}
+
+/* large txt */
+
+.large_container a, .fp_container a, .if_container a, .ndg_container a, .pc_container a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Texte Activites */
+
+.txt_activites h3 {
+    margin-left: 20px;
+    line-height: 20px;}
 
 /* footer */
 
