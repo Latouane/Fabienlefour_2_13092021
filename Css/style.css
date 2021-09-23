@@ -28,6 +28,7 @@ h1 {
 
 p {
     font-family: 'ralewaythin_italic';
+    font-size: 20px;
 }
 
 /* Marge header, sections hébergements et activites */
@@ -241,12 +242,12 @@ article {
 
 .container_heb h1 {
     width: 1200px;
-    margin: 30px 0px 0px 30px;
+    margin: 45px 0px 0px 50px;
 }
 
 .container_heb h4 {
     width: 1200px;
-    margin: 30px 0px 30px 30px;
+    margin: 40px 0px 30px 50px;
     font-size: 20px;
     font-weight: bold;
 }
@@ -256,26 +257,27 @@ article {
 .container_heb {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 .container_card_heb {
-    height: 250px ;
+    height: 270px ;
     width: 350px;
     background-color: white;
-    border-radius: 35px;
+    border-radius: 25px;
     box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
-    margin: 30px;
+    margin-top: 45px;
 }
 
 .card_heb {
     height: 240px;
-    margin: 8px;  
+    margin: 7px;  
 }
 
 /* Img carte heb */
 
 .img_hebergements {
-    height: 140px;
-    width: 334px;
+    height: 155px;
+    width: 336px;
     display: block;
 }
 
@@ -283,25 +285,24 @@ article {
     height: 100%;
     width: 100%;
     object-fit: cover;
-    border-radius: 25px 25px 0px 0px;
+    border-radius: 20px 20px 0px 0px;
 }
 
-/* txt carte heb */
+/* txt card heb */
 
 .txt_hebergements {
     height: 75px;
     width: 315px;
-    margin: 5px;
+    margin: 20px;
 }
 
 .txt_hebergements h3 {
     line-height: 0px;
-    margin-left: 10px;
+    font-size: 21px;
 }
 
 .txt_hebergements p {
     line-height: 15px;
-    margin-left: 10px;
 }
 
 .txt_hebergements i {
@@ -317,10 +318,6 @@ article {
     font-weight: bold;
 }
 
-.star_heb {
-    margin-left: 12px;
-}
-
 .container_card_heb a {
     text-decoration: none;
     color: black;
@@ -329,26 +326,101 @@ article {
 
 /* Aside */
 
-aside {
-    width: 600px;
+.part_2 {
+    height: 800px;
+    width: 615px;
     background-color: #F2F2F2;
     border-radius: 20px;
     margin-left: 40px;
 }
 
+.container_pop {
+    height: 800px;
+}
 
 /* Titre aside */
 
 .aside_title {
-    width: 540px;
-    display: inline-flex;
+    height: 65px;
+    width: 515px;
+    display: inline-flex; 
     justify-content: space-between;
-    margin: 0px 30px 0px 30px;
+    margin: 20px 50px 0px 50px;
 }
 
 .aside_title i {
     font-size: 30px;
     line-height: 85px;
+}
+
+/* Card Aside */
+
+.container_card_pop {
+    height: 170px ;
+    width: 510px;
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    margin: 45px 50px 0px 50px;
+}
+
+.card_pop {
+    display: inline-flex;
+    height: 155px;
+    margin: 7px;   
+}
+
+/* img card aside */
+
+.img_pop {
+    height: 157px;
+    width: 150px;
+    display: block;
+}
+
+.img_pop img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px 0px 0px 20px;
+}
+
+/* txt card pop */
+
+.txt_pop {
+    height: 75px;
+    width: 335px;
+    margin-left: 20px;
+}
+
+.txt_pop h3 {
+    height: 35px;
+    width: 185px;
+    line-height: 20px;
+    font-size: 21px;
+}
+
+.txt_pop p {
+    height: 30px;
+    line-height: 0px;
+}
+
+.txt_pop i {
+    margin: -2px;
+}
+
+.txt_pop .fas {
+    color: #0065FC;
+}
+
+.txt_pop .far {
+    color: lightgray;
+    font-weight: bold;
+}
+
+.container_card_pop a {
+    text-decoration: none;
+    color: black;
 }
 
 /* footer */
