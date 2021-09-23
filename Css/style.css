@@ -252,8 +252,9 @@ article {
 /* H1 et h4 Heb à Marseille */
 
 .container_heb h1 {
+    height: 25px;
     width: 1200px;
-    margin: 45px 0px 0px 50px;
+    margin: 45px 0px -10px 50px;
 }
 
 .container_heb h4 {
