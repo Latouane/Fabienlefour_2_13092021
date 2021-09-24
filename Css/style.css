@@ -451,7 +451,6 @@ article {
 /* Activites */
 
 .part_4 {
-    width: 1904px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
