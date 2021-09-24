@@ -18,8 +18,19 @@
 
 }
 
-h1, h2, h3, h4, a {
-    font-family: 'raleway', sans-serif
+/*
+@font-face {
+    font-family: "Raleway";
+    src: url('./Raleway-VariableFont_wght.ttf');
+}
+*/
+body {
+    font-family:'Raleway', sans-serif;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Raleway-Black', Arial, Helvetica, sans-serif;
+    font-weight: bold;
 }
 
 h1 {
@@ -32,7 +43,6 @@ h3 {
 }
 
 p {
-    font-family: 'ralewaythin_italic';
     font-size: 20px;
 }
 
@@ -106,7 +116,7 @@ nav a {
 /* texte section recherche logement */
 
 #hebergements {
-    margin-top: 60px;
+    margin-top: 50px;
     margin-block-end: 0px;
 }
 
@@ -181,7 +191,7 @@ input[type="button" i] {
     width: 1365px;
     align-items: center;
     justify-content: space-between;
-    margin-top: 30px;
+    margin: 30px 0px 30px 0px;
 }
 
 .title_filtres {
@@ -219,6 +229,7 @@ input[type="button" i] {
 
 .info {
     display: flex;
+    margin-bottom: 30px;
 }
 
 .info p {
@@ -227,10 +238,12 @@ input[type="button" i] {
  
 .info span {
     border-radius: 50%;
-    border: #F2F2F2 solid 2px;
+    border: #F2F2F2 solid 3px;
+    margin-right: 10px;
     padding: 10px;
     color: #0065FC;
     line-height: 5px;
+    font-size: 14px;
 }
 
 /* Section Hébergements à Marseille + Les plus populaires */
@@ -260,7 +273,7 @@ article {
 .container_heb h4 {
     width: 1200px;
     margin: 40px 0px 30px 50px;
-    font-size: 20px;
+    font-size: 21px;
     font-weight: bold;
 }
 
@@ -437,13 +450,24 @@ article {
 
 /* Activites */
 
+.part_4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.part_4 h1 {
+    width: 1900px;
+    margin-bottom: 0;
+}
 /* Card Activites */
 
 /* Large container */
 
 .large_container {
     height: 660px;
-    width: 420px;
+    width: 440px;
     background-color: white;
     border-radius: 25px;
     box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
@@ -452,14 +476,14 @@ article {
 
 .large_card {
     height: 660px;
-    width: 420px;
+    width: 440px;
 }
 
 /* Large img */
 
 .large_img {
     height: 600px;
-    width: 420px;
+    width: 440px;
     display: block;
 }
 
@@ -477,6 +501,136 @@ article {
     color: black;
 }
 
+/* 2_card_container */
+
+.double_card_container {
+    height: 660px;
+    width: 440px;
+}
+
+/* Fp Card */
+
+.fp_container {
+    height: 360px;
+    width: 440px;
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    margin-top: 20px;
+}
+.fp_card {
+    height: 360px;
+    width: 440px;
+}
+
+/* Fp img */
+
+.fp_img {
+    height: 300px;
+    width: 440px;
+    display: block;
+}
+
+.fp_img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+}
+
+/* if card */
+
+.if_container {
+    height: 250px;
+    width: 440px;
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    margin-top: 50px;
+}
+
+.if_card {
+    height: 250px;
+    width: 440px;
+}
+
+/* if img */
+
+.if_img {
+    height: 190px;
+    width: 440px;
+    display: block;
+}
+
+.if_img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+}
+
+/* Ndg card */
+
+.ndg_container {
+    height: 260px;
+    width: 440px;
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    margin-top: 20px;
+}
+
+.ndg_card {
+    height: 260px;
+    width: 440px;
+}
+
+/* Ndg img */
+
+.ndg_img {
+    height: 200px;
+    width: 440px;
+    display: block;
+}
+
+.ndg_img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+}
+
+/* Pc card */
+
+.pc_container {
+    height: 350px;
+    width: 440px;
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    margin-top: 50px;
+}
+
+.pc_card {
+    height: 350px;
+    width: 440px;
+}
+
+/* Ndg img */
+
+.pc_img {
+    height: 290px;
+    width: 440px;
+    display: block;
+}
+
+.pc_img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+}
+
 /* Texte Activites */
 
 .txt_activites h3 {
@@ -488,6 +642,7 @@ article {
 footer {
     display: flex;
     background-color: #F2F2F2;
+    margin-top: 70px;
 }
 
 .footer {
