@@ -1,23 +1,5 @@
 /* Définition de la police */
-/*
-@font-face {
-    font-family: 'ralewaythin_italic';
-    src: url('raleway-italic-variablefont_wght-webfont.woff2') format('woff2'),
-         url('raleway-italic-variablefont_wght-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
 
-}
-
-@font-face {
-    font-family: 'raleway';
-    src: url('raleway-variablefont_wght-webfont.woff2') format('woff2'),
-         url('raleway-variablefont_wght-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-*/
 @font-face
 {
     font-family: 'Raleway';
@@ -37,8 +19,17 @@
     src: url('./Raleway-VariableFont_wght.ttf');
 }
 */
+
+html,
+body {
+  width: 100%;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
 body {
     font-family:'Raleway',Arial, sans-serif;
+    margin: 0;
 }
 
 h1, h2, h3, h4 {
@@ -69,13 +60,15 @@ header, section {
 
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
 }
 
 /* logo */
 
 .logo_container {
 height: 66px;
+position: absolute;
+left: 40px;
 }
 
 #logo {
@@ -87,8 +80,7 @@ height: 66px;
 
 .menu {
     display: flex;
-    width: 600px;
-    justify-content: space-between;
+    width: 400px;
 }
 
 .menu div {
@@ -106,24 +98,38 @@ nav a {
 
 .hebergements {
     border-top: #0065FC solid 2px;
-    margin-top: -7px;
+    margin-top: 0px;
     text-align: center;
     line-height: 149px;
 }
 
 .activites {
     text-align: center;
-    line-height: 140px;
+    line-height: 150px;
 }
 
 .activites a {
     color:black;
 }
 
+
+
+/* Inscription */
+
+
+
 .inscription {
+    width: 200px;
     text-align: center;
     font-weight: bold;
-    line-height: 140px
+    line-height: 150px
+}
+
+.inscription a {
+    width: fit-content;
+    text-decoration: none;
+    color: #0065FC;
+    font-size: 18px;
 }
 
 /* texte section recherche logement */
@@ -136,8 +142,6 @@ nav a {
 .part_1 p {
     margin-top: 5px;
 }
-
-
 
 /* Barre de recherche */
 
@@ -221,6 +225,7 @@ input[type="button" i] {
 }
 
 /* Icone et texte filtre */
+
 .filtres i {
     background-color:  #DEEBFF;
     border-radius: 50%;
@@ -237,6 +242,7 @@ input[type="button" i] {
     color: black;
     margin-left: 15px;
     font-size: 26.5px;
+
 }
 
 .info {
@@ -368,7 +374,7 @@ article {
     width: 615px;
     background-color: #F2F2F2;
     border-radius: 20px;
-    margin-left: 40px;
+    margin-left: 55px;
 }
 
 .container_pop {
@@ -678,8 +684,3 @@ ul a {
     text-decoration: none;
     color: black;
 }
-
-
-
-
-

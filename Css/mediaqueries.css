@@ -1,0 +1,73 @@
+/* Version mobile */
+
+/* body syze */
+
+@media screen and (max-width: 600px) {
+
+    body {
+        width: 100%;
+        margin: 0;
+    }
+
+    /* header */
+    
+    header {
+        display: flex;
+        flex-wrap: wrap;
+        height: 240px;
+        width: 375px;
+    }
+    
+    .menu {
+        display: flex;
+        flex-wrap:wrap;
+        order: 3;
+    }
+    
+    .inscription {
+        text-align: right;
+    }
+    
+    /* Recherche logement */
+
+    .part_1 {
+            display: flex;
+            flex-wrap: wrap;
+            width: 375px;
+            justify-content: center;
+    }
+
+    /* filtres */
+
+    .container_filtres {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .title_filtres {
+        width: 100px;
+    }
+
+    /* Heb à Marseille */
+
+    .part_2 {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    article {
+        
+    }
+
+    .container_heb {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* footer */
+
+    footer {
+        display: flex;
+        flex-direction: column;
+    }
+}
