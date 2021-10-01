@@ -9,23 +9,61 @@
         margin: 0;
     }
 
+    header, section {
+        margin: 0;
+    }
+
     /* header */
     
     header {
         display: flex;
         flex-wrap: wrap;
-        height: 240px;
-        width: 375px;
+        height: auto;
+        width: auto;
+        justify-content: space-evenly;
+    }
+    /* Logo header */
+
+    .logo_container {
+        position: initial;
     }
     
+    #logo {
+        width: 97px;
+        margin-top: 20px;
+    }
+
+    /* Menu Nav */
+
     .menu {
         display: flex;
         flex-wrap:wrap;
         order: 3;
     }
     
+    .menu div {
+        height: auto;
+        width: 187px; /* Fit content à mettre */
+    }
+
+    .hebergements {
+        border-top: initial;
+        border-bottom: #0065FC 2px solid;
+        line-height: initial;
+        padding-bottom: 15px;
+    }
+
+    .activites {
+        border-bottom: #F2F2F2 2px solid;
+        line-height: initial;
+        padding-bottom: 15px;
+    }
+
+    /* inscription */
+
     .inscription {
         text-align: right;
+        line-height: 100px;
     }
     
     /* Recherche logement */
@@ -48,6 +86,8 @@
         width: 100px;
     }
 
+    /* span filtres mettre margin bot pour aligner le texte */
+    
     /* Heb à Marseille */
 
     .part_2 {
@@ -71,3 +111,4 @@
         flex-direction: column;
     }
 }
+
