@@ -59,8 +59,7 @@ header {
 
 .logo_container {
 height: 66px;
-position: absolute;
-left: 40px;
+width: auto;
 }
 
 #logo {
@@ -73,6 +72,7 @@ left: 40px;
 .menu {
     display: flex;
     width: 400px;
+    margin-left: auto;
 }
 
 .menu div {
@@ -127,8 +127,7 @@ nav a {
 /* texte section recherche logement */
 
 #hebergements {
-    margin-top: 50px;
-    margin-block-end: 0px;
+    margin-block-end: -15px;
 }
 
 .part_1 p {
@@ -142,32 +141,33 @@ nav a {
 }
 
 .localisation {
-    height: 50px;
-    width: 50px;
+    height: 60px;
+    width: 60px;
     background-color: #F2F2F2;
-    border-radius: 15px 0px 0px 15px ;
+    border-radius: 20px 0px 0px 20px ;
     text-align: center;
-    line-height: 50px;
+    line-height: 60px;
+    font-size: 25px;
 }
 
 /* Espace saisie texte recherche */
 
 .recherche {
-    height: 50px;
+    height: 60px;
     width: 300px;
 }
 
 #site-search {
-    height: 50px;
+    height: 60px;
     width: 300px;
-    border: #F2F2F2 solid;
-    font-size: 20px;
+    border: 2px #F2F2F2 solid;
+    font-size: 23px;
 }
 
 input[type="search" i] {
     appearance: auto;
     box-sizing: border-box;
-    padding-left: 10px;
+    padding-left: 20px;
 }
 
 #site-search::placeholder {
@@ -179,7 +179,7 @@ input[type="search" i] {
 
 input[type="button" i] {
     width: 160px;
-    height: 50px;
+    height: 60px;
     background-color: #0065FC;
     border: none;
     border-radius: 0px 16px 16px 0px;

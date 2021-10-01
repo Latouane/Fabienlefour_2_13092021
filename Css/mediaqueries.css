@@ -13,6 +13,13 @@
         margin: 0;
     }
 
+    h1 {
+        font-size: 22px;
+    }
+
+    p {
+        font-size: 16px;
+    }
     /* header */
     
     header {
@@ -20,7 +27,6 @@
         flex-wrap: wrap;
         height: auto;
         width: auto;
-        justify-content: space-evenly;
     }
     /* Logo header */
 
@@ -29,8 +35,9 @@
     }
     
     #logo {
-        width: 97px;
+        width: 96px;
         margin-top: 20px;
+        padding-left: 25px;
     }
 
     /* Menu Nav */
@@ -39,11 +46,16 @@
         display: flex;
         flex-wrap:wrap;
         order: 3;
+        width: 100%;
+    }
+
+    .menu a {
+        font-size: 16px;
     }
     
     .menu div {
         height: auto;
-        width: 187px; /* Fit content à mettre */
+        width: 50%;
     }
 
     .hebergements {
@@ -62,8 +74,15 @@
     /* inscription */
 
     .inscription {
+        width: auto;
         text-align: right;
-        line-height: 100px;
+        line-height: 95px;
+        margin-left: auto;
+        padding-right: 25px;
+    }
+
+    .inscription a {
+        font-size: 16px;
     }
     
     /* Recherche logement */
@@ -71,8 +90,8 @@
     .part_1 {
             display: flex;
             flex-wrap: wrap;
-            width: 375px;
-            justify-content: center;
+            width: auto;
+            margin: 0px 25px 0px 25px;
     }
 
     /* filtres */
