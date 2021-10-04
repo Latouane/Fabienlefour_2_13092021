@@ -14,7 +14,7 @@
     }
 
     h1 {
-        font-size: 22px;
+        font-size: 21px;
     }
 
     p {
@@ -94,6 +94,48 @@
             margin: 0px 25px 0px 25px;
     }
 
+    .elements_recherche {
+        margin-top: 10px;
+    }
+    /* Barre de recherche logement */
+
+    .localisation {
+        height: 45px;
+        width: 45px;
+        background-color: #F2F2F2;
+        border-radius: 15px 0px 0px 15px;
+        text-align: center;
+        line-height: 45px;
+        font-size: 17px;
+    }
+
+    .recherche {
+        height: 45px;
+        width: 240px;
+    }
+
+    #site-search {
+        height: 45px;
+        width: 240px;
+        border: 2px #F2F2F2 solid;
+        font-size: 19px;
+    }
+
+    .loupe {
+        height: 45px;
+        width: 45px;
+        background-color: #0065FC;
+        border-radius: 12px 12px 12px 12px;
+        text-align: center;
+        line-height: 45px;
+        font-size: 15px;
+        margin-left: -15px;
+        color: white;
+    }
+
+    .bouton {
+        display: none;
+    }
     /* filtres */
 
     .container_filtres {
@@ -102,17 +144,116 @@
     }
 
     .title_filtres {
-        width: 100px;
+        width: 100%;
     }
 
-    /* span filtres mettre margin bot pour aligner le texte */
+    .filtres {
+        height: 40px;
+        width: auto;
+        vertical-align: middle;
+        line-height: 40px;
+        border-radius: 50px 50px 50px 50px;
+        border: 3px #F2F2F2 solid;
+        padding-right: 12px;
+        margin-top: 10px;
+    }
+
+    .filtres i {
+        background-color: #DEEBFF;
+        border-radius: 50%;
+        border: none;
+        color: #0065FC;
+        padding: 15px;
+        font-size: 16px;
+        margin: -3.5px;
+    }
+
+    .filtres a {
+        margin-left: 13px;
+        font-size: 17.5px;
+    }
     
+    /* Info filtres */
+    
+    .info span {
+        height: fit-content;
+        border: #F2F2F2 solid 2px;
+        line-height: 3px;
+        font-size: 12px;
+    }
+    
+    .info p {
+        line-height: 20px;
+    }
     /* Heb à Marseille */
 
     .part_2 {
         display: flex;
         flex-direction: column-reverse;
+        margin: 0px 25px 0px 25px;
     }
+
+    /* Aside */
+
+    Aside {
+        height: auto;
+        width: auto;
+        background-color: #F2F2F2;
+        border-radius: 0px;
+        margin: 0;
+        padding: 15px 0px 30px 0px;
+    }
+    .container_pop {
+        height: auto;
+        margin: 0px 20px 0px 20px;
+    }
+
+    /* Titre aside */
+
+    .aside_title {
+        display: flex;
+        height: auto;
+        width: auto;
+        margin: 0;
+    }
+
+    .aside_title h1 {
+        margin-right: auto;
+    }
+
+    .aside_title i {
+        font-size: 20px;
+        line-height: 70px;
+    }
+
+    /* Card Pop */
+
+
+    .container_card_pop {
+        height: auto;
+        width: auto;
+        margin: 0px 0px 15px 0px;
+        border-radius: 15px;
+       }
+
+    .card_pop {
+        height: auto;
+        margin: 4px;
+    }
+    
+
+    /* Img Card pop */
+
+    .img_pop {
+        height: 110px;
+        width: 105px;
+        display: block;
+    }
+
+    .img_pop img {
+        border-radius: 12px 0px 0px 12px;
+    }
+
 
     article {
         

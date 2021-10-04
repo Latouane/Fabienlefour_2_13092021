@@ -260,6 +260,7 @@ input[type="button" i] {
 
 .part_2 {
     display: flex;
+    width: auto;
 }
 
 /* Article */
@@ -267,7 +268,7 @@ input[type="button" i] {
 /* Format de l'article */
 
 article {
-    width: 1250px;
+    width: auto;
     background-color: #F2F2F2;
     border-radius: 20px;
 }
@@ -361,9 +362,9 @@ article {
 
 /* Aside */
 
-.part_3 {
-    height: 800px;
-    width: 615px;
+Aside {
+    height: auto;
+    width: auto;
     background-color: #F2F2F2;
     border-radius: 20px;
     margin-left: 55px;
@@ -460,7 +461,7 @@ article {
 
 /* Activites */
 
-.part_4 {
+.part_3 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
