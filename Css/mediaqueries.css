@@ -18,8 +18,9 @@
     }
 
     p {
-        font-size: 16px;
+        font-size: 14px;
     }
+
     /* header */
     
     header {
@@ -131,6 +132,7 @@
         font-size: 15px;
         margin-left: -15px;
         color: white;
+        visibility: visible;
     }
 
     .bouton {
@@ -238,6 +240,7 @@
 
     .card_pop {
         height: auto;
+        width: auto;
         margin: 4px;
     }
     
@@ -254,21 +257,179 @@
         border-radius: 12px 0px 0px 12px;
     }
 
+    /* Texte Pop */
+
+    .txt_pop {
+        height: 75px;
+        width: auto;
+        display: inline-block;
+        margin: -5px 15px 0px 15px;
+    }
+
+    .txt_pop h3 {
+        height: 31px;
+        width: auto;
+        line-height: 19px;
+        font-size: 15px;
+    }
+
+    .txt_pop p {
+        height: 10px;
+        width: auto;
+        line-height: 0px;
+        margin-bottom: 24px;
+    }
+
+    .txt_pop .fas, .txt_pop .far {
+        font-size: 12px;
+    }
+
+    /* Hébergement à Marseille */
 
     article {
-        
+        height: auto;
+        width: auto;
+        background-color: white;
+        border-radius: 0;
     }
 
     .container_heb {
+        height: auto;
         display: flex;
         flex-direction: column;
+        margin: 0px 20px 0px 20px;
+        justify-content: center;
     }
+
+    .container_heb h1 {
+        height: auto;
+        width: auto;
+        margin: 30px 0px 0px 0px;
+    }
+
+    /* Carte Heb */
+
+    .container_card_heb {
+        height: auto;
+        width: 100%;
+        margin-top: 20px;
+        border-radius: 15px;
+    }
+
+    .card_heb {
+        height: auto;
+        width: auto;
+        margin: 4px;
+    }
+
+    /* img card heb */
+
+    .img_hebergements {
+        height: 95px;
+        width: auto;
+    }
+
+    .img_hebergements img {
+        border-radius: 12px 12px 0px 0px;
+    }
+
+    /* Txt Heb */
+
+    .txt_hebergements {
+        height: 75px;
+        width: auto;
+        margin: 0px 15px -22px 15px;
+    }
+
+    .txt_hebergements h3 {
+        font-size: 15px;
+    }
+
+    .txt_hebergements p {
+        margin-bottom: 5px;
+    }
+
+    .txt_hebergements .fas {
+        color: #0065FC;
+        font-size: 12px;
+        line-height: 10px;
+        margin-bottom: -5px;
+    }
+
+    .txt_hebergements .far {
+        font-size: 12px;
+    }
+
+
+    /* Afficher plus */
+
+    .container_heb h4 {
+        width: auto;
+        margin: 30px 0px 30px 0px;
+        font-size: 17px;
+        font-weight: bold;
+    }
+
+    /* Part 3 Activites */
+
+    .part_3 {
+        height: auto;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-between; */
+        margin: 0px 45px 0px 45px;
+    }
+    
+    .part_3 h1 {
+        width: auto;
+    }
+    /* Card Activites */
+
+    /* large container */
+
+    .large_container {
+        height: auto;
+        width: 100%;
+        margin-top: 20px;
+        border-radius: 15px;
+    }
+
+    .large_card {
+        height: auto;
+        width: auto;
+    }
+
+    /* img Large container */ 
+
+    .large_img {
+        height: 130px;
+        width: auto;
+    }
+
+    .large_img img {
+        height: 100%;
+        width: 100%;
+        border-radius: 12px 12px 0px 0px;
+    }
+
+    /* Txt Large container */
+
+    .txt_activites h3 {
+        font-size: 15px;
+    }
+
+
 
     /* footer */
 
     footer {
         display: flex;
         flex-direction: column;
+    }
+
+    .footer h2 {
+        font-size: 15px;
     }
 }
 
