@@ -551,3 +551,148 @@
     }
 }
 
+/* Tablette */ 
+
+@media screen and (min-width:600px) and (max-width:1200px) {
+
+    h1 {
+        font-size: 20.5px;
+    }
+
+    p {
+        font-size: 17px;
+    }
+
+    /* Header */
+
+    /* Logo */
+
+    .logo_container {
+        height: auto;
+        width: auto;
+    }
+
+    #logo {
+        height: auto;
+        width: 90px;
+        margin-top: 30px;
+    }
+    
+    /* Menu Nav */
+
+    .menu {
+        width: 250px;
+    }
+
+    .menu div {
+        height: auto;
+        width: 50%;
+    }
+
+    nav a {
+        font-size: 14px;
+    }
+
+    .hebergements {
+        line-height: 100px;
+    }
+
+    .activites {
+        line-height: 105px;
+    }
+    /* Inscription */
+
+    .inscription {
+        width: 125px;
+        line-height: 105px;
+    }
+
+    .inscription a {
+        font-size: 14px;
+    }
+
+    /* Recherche Logement */
+
+    .elements_recherche {
+        margin-top: 30px;
+    }
+
+    .localisation {
+        height: 50px;
+        width: 50px;
+        border-radius: 15px 0px 0px 15px;
+        line-height: 50px;
+        font-size: 20px
+    }
+
+    #site-search {
+        height: 50px;
+        width: 250px;
+        font-size: 19.5px;
+    }
+
+    .recherche {
+        height: auto;
+        width: auto;
+    }
+
+    /* bouton recherche */
+
+    input[type="button" i] {
+        width: 145px;
+        height: 50px;
+        border-radius: 0px 15px 15px 0px;
+        font-size: 19.5px;
+    }
+
+
+    /* filtres */
+
+    .title_filtres {
+        width: 100%;
+        font-size: 20.5px;
+    }
+
+    .filtres {
+        height: 60px;
+        margin: 10px 15px 0px 0px;
+        padding-right: 20px;
+    }
+
+    .filtres p {
+        font-size: 20.5px;
+    }
+
+    .filtres i {
+        font-size: 25px;
+        margin: -12px 10px 0px 0px;
+    }
+    
+        /* Info filtres */
+
+    .info span {
+        height: fit-content;
+    }
+
+    /* Article + Aside */
+
+    /* article aside à faire 
+
+.container_card_heb {
+    height: 40%;
+    width: 30%;
+
+.card_heb {
+    height: 40%;
+    width: auto;
+
+.img_hebergements
+    height: 10em;
+    width: 100%;
+    display: block;
+
+    .txt_hebergements {
+    height: 7em;
+    width: auto;
+    margin: 20px;
+}

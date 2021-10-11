@@ -138,6 +138,7 @@ nav a {
 
 .elements_recherche {
     display: flex;
+    margin-top: 35px;
 }
 
 .localisation {
@@ -197,9 +198,9 @@ input[type="button" i] {
 
 .container_filtres {
     display: flex;
-    width: 1365px;
+    flex-wrap: wrap;
+    width: auto;
     align-items: center;
-    justify-content: space-between;
     margin: 30px 0px 30px 0px;
 }
 
@@ -214,6 +215,7 @@ input[type="button" i] {
     border-radius: 50px 50px 50px 50px;
     border: 3px #F2F2F2 solid; 
     padding-right: 30px;
+    margin: 10px 0px 0px 35px;
 }
 
 .filtres:hover {
@@ -260,10 +262,10 @@ input[type="button" i] {
 .info span {
     border-radius: 50%;
     border: #F2F2F2 solid 3px;
-    margin-right: 10px;
+    margin: -7px 10px 0px 0px;
     padding: 10px;
     color: #0065FC;
-    line-height: 5px;
+    line-height: 4px;
     font-size: 14px;
 }
 
@@ -279,7 +281,7 @@ input[type="button" i] {
 /* Format de l'article */
 
 article {
-    width: auto;
+    width: 69%;
     background-color: #F2F2F2;
     border-radius: 20px;
 }
@@ -288,7 +290,7 @@ article {
 
 .container_heb h1 {
     height: 25px;
-    width: 1200px;
+    width: 100%;
     margin: 45px 0px -10px 50px;
 }
 
@@ -305,6 +307,7 @@ article {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    
 }
 .container_card_heb {
     height: 270px ;
@@ -375,7 +378,7 @@ article {
 
 Aside {
     height: auto;
-    width: auto;
+    width: 31%;
     background-color: #F2F2F2;
     border-radius: 20px;
     margin-left: 55px;
@@ -480,7 +483,7 @@ Aside {
 }
 
 .part_3 h1 {
-    width: 1900px;
+    width: 100%;
     margin-bottom: 0;
 }
 /* Card Activites */
