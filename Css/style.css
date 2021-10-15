@@ -3,11 +3,11 @@
 @font-face
 {
     font-family: 'Raleway';
-    src: url('fontsv1/Raleway-Regular.eot');
-    src: url('fontsv1/Raleway-Regular.eot') format('embedded-opentype'),
-         url('fontsv1/Raleway-Regular.woff') format('woff'),
-         url('fontsv1/Raleway-Regular.ttf') format('truetype'),
-         url('fontsv1/Raleway-Regular.svg') format('svg');
+    src: url('fonts/Raleway-Regular.eot');
+    src: url('fonts/Raleway-Regular.eot') format('embedded-opentype'),
+         url('fonts/Raleway-Regular.woff') format('woff'),
+         url('fonts/Raleway-Regular.ttf') format('truetype'),
+         url('fonts/Raleway-Regular.svg') format('svg');
     font-weight: normal;
     font-style: normal;     
 }
@@ -389,10 +389,9 @@ Aside {
 
 .aside_title {
     height: auto;
-    width: 87%;
+    width: 100%;
     display: flex; 
-    justify-content: space-between;
-    margin: 20px 35px 0px 35px;
+    justify-content: space-evenly;
 }
 
 .aside_title i {

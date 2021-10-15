@@ -791,7 +791,7 @@
         height: auto;
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-between;
+        justify-content: space-evenly;
         margin: 0px 25px 0px 25px;
     }
 
@@ -800,13 +800,14 @@
     .aside_title {
         height: min-content;
         margin: 0;
+        justify-content: space-between;
     }
 
     /* Pop card */
 
     .container_card_pop {
         height: 30%;
-        width: 48%;
+        width: 80%;
         margin: 0px 0px 30px 0px;
     }
 
