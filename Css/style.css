@@ -82,7 +82,7 @@ width: auto;
 }
 
 nav a {
-    font-size: 18px;
+    font-size: 21px;
     text-decoration: none;
     color: #0065FC;
     ;
@@ -121,14 +121,10 @@ nav a {
     width: fit-content;
     text-decoration: none;
     color: #0065FC;
-    font-size: 18px;
+    font-size: 21px;
 }
 
 /* texte section recherche logement */
-
-#hebergements {
-    margin-block-end: -15px;
-}
 
 .part_1 p {
     margin-top: 5px;
@@ -214,7 +210,7 @@ input[type="button" i] {
     line-height: 0px;
     border-radius: 50px 50px 50px 50px;
     border: 3px #F2F2F2 solid; 
-    padding-right: 30px;
+    padding-right: 25px;
     margin: 10px 0px 0px 35px;
 }
 
@@ -291,12 +287,12 @@ article {
 .container_heb h1 {
     height: 25px;
     width: 100%;
-    margin: 45px 0px -10px 50px;
+    margin: 45px 0px -10px 35px;
 }
 
 .container_heb h4 {
-    width: 1200px;
-    margin: 40px 0px 30px 50px;
+    width: 100%;
+    margin: 40px 0px 30px 35px;
     font-size: 21px;
     font-weight: bold;
 }
@@ -310,24 +306,24 @@ article {
     
 }
 .container_card_heb {
-    height: 270px ;
-    width: 350px;
+    height: 40%;
+    width: 30%;
     background-color: white;
     border-radius: 25px;
     box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
-    margin-top: 45px;
+    margin-top: 40px;
 }
 
 .card_heb {
-    height: 240px;
-    margin: 7px;  
+    height: 100%;
+    margin: 5px;  
 }
 
 /* Img card Heb */
 
 .img_hebergements {
-    height: 155px;
-    width: 336px;
+    height: 10em;
+    width: 100%;
     display: block;
 }
 
@@ -348,11 +344,12 @@ article {
 
 .txt_hebergements h3 {
     line-height: 0px;
-    font-size: 21px;
+    font-size: 20px;
 }
 
 .txt_hebergements p {
     line-height: 15px;
+    font-size: 20px;
 }
 
 .txt_hebergements i {
@@ -381,7 +378,7 @@ Aside {
     width: 31%;
     background-color: #F2F2F2;
     border-radius: 20px;
-    margin-left: 55px;
+    margin-left: 45px;
 }
 
 .container_pop {
@@ -391,11 +388,11 @@ Aside {
 /* Titre Aside */
 
 .aside_title {
-    height: 65px;
-    width: 515px;
-    display: inline-flex; 
+    height: auto;
+    width: 87%;
+    display: flex; 
     justify-content: space-between;
-    margin: 20px 50px 0px 50px;
+    margin: 20px 35px 0px 35px;
 }
 
 .aside_title i {
@@ -406,25 +403,26 @@ Aside {
 /* Card Pop */
 
 .container_card_pop {
-    height: 170px ;
-    width: 510px;
+    height: 24%;
+    width: auto;
     background-color: white;
     border-radius: 25px;
     box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
-    margin: 45px 50px 0px 50px;
+    margin: 0px 35px 40px 35px;
 }
 
 .card_pop {
     display: inline-flex;
-    height: 155px;
-    margin: 7px;   
+    height: auto;
+    width: 100%;
+    margin: 5px;   
 }
 
 /* img card Pop */
 
 .img_pop {
-    height: 157px;
-    width: 150px;
+    height: 11.4em;
+    width: 35%;
     display: block;
 }
 
@@ -438,20 +436,20 @@ Aside {
 /* txt card Pop */
 
 .txt_pop {
-    height: 75px;
-    width: 335px;
+    height: auto;
+    width: auto;
     margin-left: 20px;
 }
 
 .txt_pop h3 {
-    height: 35px;
-    width: 185px;
+    height: auto;
+    width: auto;
+    max-width: 185px;
     line-height: 20px;
-    font-size: 21px;
+    font-size: 20px;
 }
 
 .txt_pop p {
-    height: 30px;
     line-height: 0px;
 }
 
@@ -461,6 +459,7 @@ Aside {
 
 .txt_pop .fas {
     color: #0065FC;
+    padding-top: 55;
 }
 
 .txt_pop .far {
@@ -488,11 +487,19 @@ Aside {
 }
 /* Card Activites */
 
+/* group card container */
+
+.group_container {
+    display: flex;
+    width: 49%;
+    justify-content: space-between;
+}
+
 /* Large container */
 
 .large_container {
-    height: 660px;
-    width: 440px;
+    height: auto;
+    width: 48%;
     background-color: white;
     border-radius: 25px;
     box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
@@ -500,15 +507,15 @@ Aside {
 }
 
 .large_card {
-    height: 660px;
-    width: 440px;
+    height: auto;
+    width: 100%;
 }
 
 /* Large img */
 
 .large_img {
-    height: 600px;
-    width: 440px;
+    height: 37em;
+    width: auto;
     display: block;
 }
 
@@ -529,30 +536,31 @@ Aside {
 /* 2_card_container */
 
 .double_card_container {
-    height: 660px;
-    width: 440px;
+    height: auto;
+    width: 48%;
 }
 
 /* Fp Card */
 
 .fp_container {
-    height: 360px;
-    width: 440px;
+    height: 54%;
+    width: 100%;
     background-color: white;
     border-radius: 25px;
     box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
     margin-top: 20px;
 }
+
 .fp_card {
-    height: 360px;
-    width: 440px;
+    height: auto;
+    width: 100%;
 }
 
 /* Fp img */
 
 .fp_img {
-    height: 300px;
-    width: 440px;
+    height: 19em;
+    width: auto;
     display: block;
 }
 
@@ -566,24 +574,24 @@ Aside {
 /* if card */
 
 .if_container {
-    height: 250px;
-    width: 440px;
+    height: 37%;
+    width: 100%;
     background-color: white;
     border-radius: 25px;
     box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
-    margin-top: 50px;
+    margin-top: 40px;
 }
 
 .if_card {
-    height: 250px;
-    width: 440px;
+    height: auto;
+    width: 100%;
 }
 
 /* if img */
 
 .if_img {
-    height: 190px;
-    width: 440px;
+    height: 11.8em;
+    width: auto;
     display: block;
 }
 
@@ -597,8 +605,8 @@ Aside {
 /* Ndg card */
 
 .ndg_container {
-    height: 260px;
-    width: 440px;
+    height: 39%;
+    width: 100%;
     background-color: white;
     border-radius: 25px;
     box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
@@ -606,15 +614,15 @@ Aside {
 }
 
 .ndg_card {
-    height: 260px;
-    width: 440px;
+    height: auto;
+    width: 100%;
 }
 
 /* Ndg img */
 
 .ndg_img {
-    height: 200px;
-    width: 440px;
+    height: 12.5em;
+    width: auto;
     display: block;
 }
 
@@ -628,24 +636,24 @@ Aside {
 /* Pc card */
 
 .pc_container {
-    height: 350px;
-    width: 440px;
+    height: 52%;
+    width: 100%;
     background-color: white;
     border-radius: 25px;
     box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
-    margin-top: 50px;
+    margin-top: 40px;
 }
 
 .pc_card {
-    height: 350px;
-    width: 440px;
+    height: auto;
+    width: 100%;
 }
 
 /* Ndg img */
 
 .pc_img {
-    height: 290px;
-    width: 440px;
+    height: 18.1em;
+    width: auto;
     display: block;
 }
 
