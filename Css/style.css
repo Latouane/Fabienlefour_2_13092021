@@ -29,7 +29,7 @@ h1, h2, h3, h4 {
     font-weight: bold;
 }
 
-h1 {
+h1, h2 {
     font-size: 27.5px;
 }
 
@@ -276,7 +276,7 @@ input[type="button" i] {
 
 /* Format de l'article */
 
-article {
+.heb {
     width: 69%;
     background-color: #F2F2F2;
     border-radius: 20px;
@@ -284,7 +284,7 @@ article {
 
 /* H1 et h4 Heb à Marseille */
 
-.container_heb h1 {
+.heb h1 {
     height: 25px;
     width: 100%;
     margin: 45px 0px -10px 35px;
@@ -389,9 +389,11 @@ Aside {
 
 .aside_title {
     height: auto;
-    width: 100%;
+    width: auto;
     display: flex; 
-    justify-content: space-evenly;
+    justify-content: space-between;
+    margin: 17px 35px 0px 35px;
+
 }
 
 .aside_title i {
@@ -458,7 +460,7 @@ Aside {
 
 .txt_pop .fas {
     color: #0065FC;
-    padding-top: 55;
+    padding-top: 55px;
 }
 
 .txt_pop .far {

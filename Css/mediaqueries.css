@@ -13,7 +13,7 @@
         margin: 0;
     }
 
-    h1 {
+    h1, h2 {
         font-size: 21px;
     }
 
@@ -295,7 +295,7 @@
 
     /* Hébergement à Marseille */
 
-    article {
+    .heb {
         height: auto;
         width: auto;
         background-color: white;
@@ -311,7 +311,7 @@
         justify-content: center;
     }
 
-    .container_heb h1 {
+    .heb h1 {
         height: auto;
         width: auto;
         margin: 30px 0px 0px 0px;
@@ -583,7 +583,7 @@
         margin: 0;
     }
 
-    h1 {
+    h1, h2 {
         font-size: 21px;
     }
 
@@ -695,7 +695,7 @@
         height: 45px;
         width: 100%;
         border: 2px #F2F2F2 solid;
-        font-size: 14px;
+        font-size: 18px;
     }
 
     input[type="search" i] {
@@ -799,8 +799,14 @@
 
     .aside_title {
         height: min-content;
+        width: 100%;
         margin: 0;
         justify-content: space-between;
+    }
+
+    .aside_title i {
+        font-size: 21px;
+        line-height: 65px;
     }
 
     /* Pop card */
@@ -840,7 +846,7 @@
 
     /* Hébergement à Marseille */
 
-    article {
+    .heb {
         width: 100%;
         background-color: white;
     }
@@ -852,7 +858,7 @@
 
     /* Heb Title */
 
-    .container_heb h1 {
+    .heb h1 {
         margin: 30px 0px -10px 0px;
     }
 
@@ -896,3 +902,4 @@
     .part_3 {
         margin: 0px 25px 0px 25px;
     }
+}
