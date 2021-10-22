@@ -24,6 +24,11 @@ body {
     margin: 0;
 }
 
+#bloc_page {
+    max-width: 1980px;
+    margin: 0 auto;
+}
+
 h1, h2, h3, h4 {
     font-family: 'Raleway-Black', Arial, Helvetica, sans-serif;
     font-weight: bold;
